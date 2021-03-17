@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+body{
+    font-family: 'Poppins';
+}
+h1 {
+    font-size: 3em;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.sombra {
+    box-shadow: 0 6px 6px -6px rgb(165, 165, 165);
+}
+header > div {
+    padding: 0 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+}
+nav {
+    width: 600px;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+}
+.blackHeart {
+    width: 20px;
+    margin-right: 1rem;
+}
+.npm-logo {
+    width: 50px;
+    margin-right: 2rem;
+}
+
+.search-box {
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    background: #f1f1f1;
+    margin: 10px 0 10px 0;
+}
+.search-box img {
+    width: 20px; 
+    height: 20px; 
+    margin: 10px;
+}
+.search-box #input-text {
+    height: 30px;
+    width: 100%;   
+    margin-top: 7px;
+    border: none;
+    background: #f1f1f1;
+    outline: none;
+}
+
+#search-btn {
+    font-size: 15px;
+    font-weight: 900;
+    padding: 8px 30px;
+    background-color: red;
+    color: white;
+    border: none;    
+}
+.links-btn {
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px 0 20px;    
+}
+.links-btn a {
+    text-decoration: none;
+    color: black;
+}
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 600px; 
+}
+.section-first {
+    background-color: rgba(232, 217, 217, .3);
+ }
+.section-second {
+    background-color: white;
+ }
+ 
+ .bring {
+     background-color: #ffebb5;
+     height: 70px;
+     width: 600px;
+     height: 30px;
+     transform: skew(20deg); 
+     padding-left: 20px;
+     text-align: center;
+     margin: 30px 0 30px 0;    
+ }
+ .bring-h2 {
+    display: block;
+    position: absolute;
+    bottom: -495px;
+    left: 28%;   
+ }
+ .article-second {
+     width: 640px;
+     font-size: 13px;
+     text-align: center;
+ }
+ 
+.third {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: row;
+    font-size: 15px;       
+}
+.third > div {
+    width: 200px;
+    margin: 0 20px;
+}
+.third svg {
+    width: 40px;
+}
+.third a {
+    font-weight: 900;
+    color: red;
+    text-decoration: none; 
+}
+.btn {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px 45px;
+    margin: 10px;
+}
+.see-plans {
+    background-color: #FB3B49;
+    color: white;
+    box-shadow: 8px 8px 0 rgba(251, 59, 73, .2);    
+}
+.join {
+    color:black;
+    background-color: white;
+
+}
+.article-first {
+    width: 440px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+.cao {
+    margin: 90px;
+    display: flex;
+    justify-content: center;
+}
+.cao button {
+    font-size: 15px;
+    font-weight: bolder;
+    padding: 14px 90px;
+    color: white;
+    background-color: black;
+    box-shadow: 8px 8px 0 rgba(146, 146, 146, 0.2);
+    border: none;
+}
